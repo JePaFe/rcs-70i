@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 03</title>
+  </head>
+  <body>
+    <h1>HTML 03 - Tablas</h1>
+
+    <table border="1" cellspacing="0" cellpadding="3">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>DNI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>87678643</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>Gonzalez</td>
+          <td>987654</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>suma</th>
+          <th>promedio</th>
+          <th>contador</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+
+    <table border="1" cellspacing="0" cellpadding="3">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th colspan="2">Apellido y DNI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td rowspan="2">87678643</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>Gonzalez</td>
+          <td>987654</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>suma</th>
+          <th>promedio</th>
+          <th>contador</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

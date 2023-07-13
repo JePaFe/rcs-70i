@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 03</title>
+  </head>
+  <body>
+    <h1>HTML 03 - Formularios</h1>
+
+    <form
+      action="https://formspree.io/f/{form_id}"
+      method="post"
+      enctype="application/x-www-form-urlencoded"
+    >
+      <div>
+        <label for="nombre">Nombre: </label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          maxlength="4"
+          required
+          value="Juan"
+        />
+      </div>
+
+      <div>
+        <label for="last_name">Apellido: </label>
+        <input type="text" name="apellido" id="last_name" />
+      </div>
+
+      <div>
+        <label for="email">Correo: </label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div>
+        <label for="password">Contraseña: </label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <div>
+        <label for="html">HTML </label>
+        <input type="checkbox" name="html" id="html" />
+        <label for="css">CSS </label>
+        <input type="checkbox" name="css" id="css" />
+      </div>
+
+      <div>
+        <label for="lunes">Lunes: </label>
+        <input type="radio" name="dias" id="lunes" value="1" />
+
+        <label for="martes">Martes: </label>
+        <input type="radio" name="dias" id="martes" value="2" />
+
+        <label for="miercoles">Miercoles: </label>
+        <input type="radio" name="dias" id="miercoles" value="3" />
+      </div>
+
+      <div>
+        <label for="mensaje">Mensaje: </label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <label for="provincias">Provincias</label>
+        <select name="provincias" id="provincias">
+          <option></option>
+          <option value="1">Tucuman</option>
+          <option value="2">Cordoba</option>
+          <option value="3">Buenos Aires</option>
+        </select>
+      </div>
+
+      <!-- <input type="submit" value="Enviar" /> -->
+      <button type="submit">Enviar</button>
+      <!-- <button type="reset">Borrar</button> -->
+    </form>
+  </body>
+</html>
