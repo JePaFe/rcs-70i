@@ -1,0 +1,95 @@
+h1 {
+  color: red;
+  border: 2px solid salmon;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: 3px solid blue;
+  outline-offset: 5px;
+}
+
+h1:hover {
+  color: green;
+  /* cursor: pointer; */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+
+input {
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+input:focus {
+  outline: 1px solid salmon;
+}
+
+input:required {
+  outline: 1px solid red;
+}
+
+/* input:required::after {
+  content: " *";
+  color: red;
+} */
+
+input:valid {
+  outline: 1px solid green;
+}
+
+/* input:focus {
+  color: #ff0000;
+}
+
+input {
+  color: green;
+} */
+
+/* input:required {
+  background-color: #00ff00;
+} */
+
+/* input:invalid {
+  background-color: red;
+} */
+
+/* input:valid {
+  background-color: green;
+} */
+
+p:nth-child(2) {
+  color: green;
+}
+
+tbody tr:nth-child(-n + 4) {
+  /* odd y even */
+  background-color: gray;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: orange;
+}

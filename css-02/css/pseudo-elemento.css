@@ -1,0 +1,23 @@
+/* p::first-line {
+    color: red;
+} */
+
+/* p::first-letter {
+    color: red;
+    font-size: 2em;
+} */
+
+p::selection {
+  color: yellow;
+  background-color: brown;
+  font-size: 2em;
+}
+
+p::before {
+  content: "* ";
+  color: red;
+}
+
+p::after {
+  content: "...";
+}
