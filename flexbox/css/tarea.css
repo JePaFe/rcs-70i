@@ -1,0 +1,85 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background-color: aqua;
+}
+main {
+  background-color: cadetblue;
+}
+footer {
+  background-color: darkgoldenrod;
+}
+
+header,
+main,
+footer {
+  padding: 1em;
+}
+
+main {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+article {
+  color: green;
+  padding-bottom: 1em;
+  border-bottom: solid;
+}
+
+article:last-child {
+  padding-bottom: 0;
+  border: none;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+article a {
+  color: inherit;
+}
+
+header img,
+header nav {
+  display: inline-block;
+}
+
+header img {
+  margin-right: 70%;
+}
+
+header nav {
+  margin-top: 15px;
+  vertical-align: top;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figcaption {
+  color: snow;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+/* footer {
+    display: flex;
+}
+
+footer div,
+footer address {
+    flex: 1;
+} */
+
+footer div,
+footer address {
+  min-width: 33%;
+  display: inline-block;
+}
