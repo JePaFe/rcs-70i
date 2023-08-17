@@ -1,0 +1,12 @@
+body {
+  min-height: 200vh;
+}
+
+.banner {
+  height: 3em;
+  background-color: aqua;
+}
+
+.bg-orange {
+  background-color: orange;
+}
